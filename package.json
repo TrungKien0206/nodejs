@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrungKien0206/nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "kien",
+    "kiennodejs"
+  ],
+  "author": "trungkien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrungKien0206/nodejs/issues"
+  },
+  "homepage": "https://github.com/TrungKien0206/nodejs#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
