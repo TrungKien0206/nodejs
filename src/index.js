@@ -24,12 +24,12 @@ app.engine(
     extname: ".hbs",
   })
 );
-app.set("view engine", "hbs");
-app.set("views", Path.join(__dirname, "resources/views"));
+                        app.set("view engine", "hbs");
+      app.set("views", Path.join(__dirname, "resources/views"));
 
 // Route init
 route(app);
 
-app.listen(port, () => {
+            app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
